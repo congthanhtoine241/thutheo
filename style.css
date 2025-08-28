@@ -180,15 +180,22 @@ body {
         transform: rotate(0deg);
     }
 }
-.date__of__birth, .name{
+.date__of__birth,
+.name 
+{
     display: flex;
-    justify-content:space-around;
+    justify-content: space-between; 
     align-items: center;
     background-color: var(--color-text-pink);
     border-radius: 50px;
     margin-top: 20px;
     font-family: "Sriracha", cursive;
-    
+    padding: 0 20px; 
+}
+.name span 
+{
+    flex: 1;               
+    text-align: center;   
 }
 .date__of__birth{
     border: 3px solid var(--color-black);
@@ -220,7 +227,7 @@ body {
         opacity: 1;
         visibility: visible;
         width: 300px;
-        height: 50px;
+        height: 70px;
     }
 }
 .name{
